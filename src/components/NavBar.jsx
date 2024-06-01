@@ -62,9 +62,10 @@ export const NavBar = () => {
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
-              <a href="src/assets/cv/AndyFuentesCV.pdf" download="Andy_Fuentes.pdf">
-                <button className="vvd"><span>Download CV</span></button>
+              <a href="https://files.fm/u/8vn6pmqqr4#/view/7y4ag8spw6" download="Andy_Fuentes.pdf">
+                  <button className="vvd"><span>Download CV</span></button>
               </a>
+
             </span>
           </Navbar.Collapse>
         </Container>
