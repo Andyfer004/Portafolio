@@ -48,6 +48,7 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -55,10 +56,15 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/andyfeer.fuentesvelasquez"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/andyf_fuentes/"><img src={navIcon3} alt="" /></a>
                 <a href="https://github.com/Andyfer004"><img src={navIcon4} alt="" /></a>
+                
               </div>
+              
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
+              <a href="src/assets/cv/AndyFuentesCV.pdf" download="Andy_Fuentes.pdf">
+                <button className="vvd"><span>Download CV</span></button>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>

@@ -13,6 +13,16 @@ import projImg11 from "../assets/img/image11.png";
 import projImg12 from "../assets/img/image12.png";
 import projImg13 from "../assets/img/image13.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import apuesta1 from "../assets/img/apuesta1.png";
+import apuesta2 from "../assets/img/apuesta2.png";
+import apuesta3 from "../assets/img/apuesta3.png";
+import apuesta4 from "../assets/img/apuesta4.png";
+import apuesta5 from "../assets/img/apuesta5.png";
+import apuesta6 from "../assets/img/apuesta6.png";
+import apuesta7 from "../assets/img/apuesta7.png";
+import apuesta8 from "../assets/img/apuesta8.png";
+import apuesta9 from "../assets/img/apuesta9.png";
+import apuesta10 from "../assets/img/apuesta10.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -101,6 +111,16 @@ export const Projects = () => {
     },
   ];
 
+  const imageStyle = {
+    width: '100%', 
+    maxWidth: '30%', 
+    height: 'auto', 
+    borderRadius: '8px', 
+    boxShadow: '0 4px 8px rgba(0,0,0,0.1)', 
+    marginBottom: '20px',
+    padding: '10px'
+  };
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -142,8 +162,48 @@ export const Projects = () => {
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+  <Row>
+    <Col size={12}>
+      <h3>Mi Experiencia Profesional</h3>
+      <div className="experience-item">
+        <h4>Programador Jr - Recursos de Ingeniería Total S.A</h4>
+        <p><strong>Periodo:</strong> Enero 2023 - Julio 2023</p>
+        <p>En este puesto, realice un sistema de registro para los trabajadores, para marcar su entrada y salida, con interfza, backend y frontend, y algunos otros proyectos de gestión de documentos</p>
+      </div>
+      <div className="experience-item">
+        <h4>Ingeniero de Software - Jadens</h4>
+        <p><strong>Periodo:</strong> Enero 2024 - Junio 2024</p>
+        <p>Encargado de un proyecto de ingeniería de software donde dirige con otra persona para hacer una app de gestión de tiempo mucho más cómoda que otras herramientas.</p>
+      </div>
+    </Col>
+  </Row>
+</Tab.Pane>
+<Tab.Pane eventKey="third">
+                      <Row>
+                        <Col size={12}>
+                          <h3>Análisis de Datos en Apuestas en Línea</h3>
+                          <p>Mi habilidad para analizar datos no solo se ha aplicado en el ámbito profesional, 
+        sino también en decisiones personales y actividades de ocio, como las apuestas en línea. 
+        Utilizando técnicas avanzadas de análisis y modelado estadístico, he logrado resultados 
+        notables que demuestran la eficacia de combinar pasión por el deporte con una sólida 
+        comprensión de los datos.</p>
+                          <div>
+                            <img src={apuesta1} alt="Análisis de Apuesta 1" style={imageStyle} />
+                            <img src={apuesta3} alt="Análisis de Apuesta 3" style={imageStyle} />
+                            <img src={apuesta4} alt="Análisis de Apuesta 4" style={imageStyle} />
+                            <img src={apuesta5} alt="Análisis de Apuesta 5" style={imageStyle} />
+                            <img src={apuesta6} alt="Análisis de Apuesta 6" style={imageStyle} />
+                            <img src={apuesta7} alt="Análisis de Apuesta 7" style={imageStyle} />
+                            <img src={apuesta8} alt="Análisis de Apuesta 8" style={imageStyle} />
+                            <img src={apuesta9} alt="Análisis de Apuesta 9" style={imageStyle} />
+                            <img src={apuesta10} alt="Análisis de Apuesta 10" style={imageStyle} />
+                          </div>
+                        </Col>
+                      </Row>
+                    </Tab.Pane>
+
                   </Tab.Content>
                 </Tab.Container>
               </div>}
