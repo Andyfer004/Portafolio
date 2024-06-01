@@ -17,9 +17,11 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
    ```bash
    git clone https://github.com/Andyfer004/Portafolio.git
 2. Navega al directorio del proyecto:
+   ```bash
    cd nombre_del_directorio
    
 4. Instala las dependencias:
+   ```bash
    npm install
 
 Cómo Usar
